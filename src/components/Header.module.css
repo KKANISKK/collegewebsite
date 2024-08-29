@@ -8,8 +8,7 @@
     height: 110px;
     width: 100%;
     padding: 10px;
-    display: flex;
-    justify-content: space-around;    
+    display: flex;    
 }
 .college-name{  
   margin:5px;
@@ -17,11 +16,24 @@
   font-size: 30px;
 }
 
-.logo{
+.college-logo{
               height:5px;
 }
 
-.item-container{
+.item-college-nameNlogo-container{
   display: flex;
   justify-content: space-around;
+  padding-left: 100px;
+}
+.header-links-container{
+  padding-left: 150px;
+  padding-top: 18px;
+
+}
+.link-properties{
+  font-size: 14px;
+  color: darkseagreen;
+  display: inline-block;
+  padding-left: 8px;
+  padding-right: 8px;
 }

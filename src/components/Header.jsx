@@ -2,8 +2,8 @@ import styles from "./Header.module.css";
 const Header = () => {
   return (
     <div className={styles["header-area"]}>
-      <div className={styles["item-container"]}>
-        <div className={styles["logo"]}>
+      <div className={styles["item-college-nameNlogo-container"]}>
+        <div className={styles["college-logo"]}>
           <img src="/GGESElogo.png" alt="college logo" />
         </div>
 
@@ -13,6 +13,25 @@ const Header = () => {
             Technical Campus.
           </p>
         </div>
+      </div>
+      <div className={styles["header-links-container"]}>
+        <ul>
+          <li className={styles["link-properties"]}>
+            <a>NEWS & EVENTS</a>
+          </li>
+          <li className={styles["link-properties"]}>
+            <a>WEBMAIL</a>
+          </li>
+          <li className={styles["link-properties"]}>
+            <a>CONTACT</a>
+          </li>
+          <li className={styles["link-properties"]}>
+            <a>GRIEVANCE</a>
+          </li>
+          <li className={styles["link-properties"]}>
+            <a>FEE PAYMENT</a>
+          </li>
+        </ul>
       </div>
     </div>
   );
