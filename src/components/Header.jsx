@@ -10,7 +10,7 @@ const Header = () => {
         <div className={styles["college-name"]}>
           <p>
             Guru Gobind Singh Educational Society's <br />
-            Technical Campus. changed.
+            Technical Campus.
           </p>
         </div>
       </div>
