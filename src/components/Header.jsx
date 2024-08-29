@@ -31,6 +31,38 @@ const Header = () => {
           <li className={styles["link-properties"]}>
             <a>FEE PAYMENT</a>
           </li>
+          <br />
+          <li className={styles["link-properties"]}>
+            <a>
+              <img
+                src="/whatsappPic.jpeg"
+                alt="whatsapp logo"
+                className={styles["whatsapp-properties"]}
+              />
+            </a>
+          </li>
+          <li className={styles["link-properties"]}>
+            <a className={styles["number-properties"]}>06542-265398</a>
+          </li>
+          <li className={styles["link-properties"]}>
+            <a>From Mon-Sat, 9:30 am - 4:30 pm</a>
+          </li>
+
+          {/* <li>
+            <a>
+              <img
+                src="/whatsappPic.jpeg"
+                alt="whatsapp Logo"
+                className={styles["whatsapp-properties"]}
+              />
+            </a>
+          </li>
+          <li className={styles["link-properties"]}>
+            <p>06542-265398</p>
+          </li>
+          <li className={styles["link-properties"]}>
+            <a>date time</a>
+          </li> */}
         </ul>
       </div>
     </div>
