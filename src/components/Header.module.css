@@ -3,13 +3,15 @@
   padding: 0px;
   box-sizing: border-box;
 }
+
 .header-area{
-    background-color:black;
-    height: 110px;
-    width: 100%;
-    padding: 10px;
-    display: flex;    
+ background-color:black;
+ height: 110px;
+ width: 100%;
+ padding: 10px;
+ display: flex;    
 }
+
 .college-name{  
   margin:5px;
   color:darkseagreen;
@@ -17,7 +19,7 @@
 }
 
 .college-logo{
-              height:5px;
+  height:5px;
 }
 
 .item-college-nameNlogo-container{
@@ -39,16 +41,89 @@
   padding-bottom: 10px;
 }
 .contact-container{
-  color: darkseagreen;
-      margin-top: 15px;
-    margin-left: 90px;
-
+ color: darkseagreen;
+ margin-top: 15px;
+ margin-left: 90px;
 }
+
 .whatsapp-properties{
   height: 30px;
   margin: -7px;
 }
+
 .number-properties{
-color: darkseagreen;
-font-size: 20px;
+ color: darkseagreen;
+ font-size: 20px;
+}
+
+.menu-bar-div{
+  height: 42px;
+  width: 1542px;
+}
+
+.dropdown-properties-list{
+  height: 42px;
+  padding: 11px 24px;
+  display: inline-block;
+  background-color: aqua;
+}
+
+.dropdown-properties-list:hover{
+  background-color: rgb(160, 160, 160);
+}
+.dropdown-button-properties{
+  color:black;
+  font-size: 15px;
+  text-decoration: none;
+  font-size: 13px;
+} 
+
+.sub-menu-1{
+ display: none; 
+}
+
+.dropdown-properties-list:hover .sub-menu-1 {
+  display: block;
+}
+
+.sub-menu-1 ul{
+  position: absolute;
+  margin-top: 12px;
+  margin-left: -24px;
+  background-color: aqua;
+}  
+
+.sub-menu-1 ul li{
+ padding: 14px 20px;
+ display: block;
+
+ transition: all;
+ transition-duration: 50ms;
+ transition-delay: 0ms;
+}  
+
+.sub-menu-1 ul li:hover{
+  background-color: bisque;
+}
+
+.right-arrow-button-properties{
+  display: inline-block;
+  position: relative;
+}
+
+.sub-menu-2{
+  display: none; 
+}
+
+.sub-menu-1 ul li:hover .sub-menu-2{
+  display: block ;
+  position: absolute;
+  margin-top:-46px ;
+  margin-left:289px;
+}
+
+.sub-menu-2 ul li{
+  right: 2px;
+  padding:15px 35px;
+  white-space: nowrap;
 }
